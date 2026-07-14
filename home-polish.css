@@ -59,6 +59,25 @@ a:focus-visible {
   text-wrap: pretty;
 }
 
+.statement .shell {
+  align-items: start;
+  column-gap: 110px;
+  grid-template-columns: 220px minmax(0, 1fr);
+  row-gap: 30px;
+}
+
+.statement h2 {
+  max-width: 900px;
+}
+
+.statement p {
+  font-size: 18px;
+  grid-column: 2;
+  line-height: 1.75;
+  margin: 0;
+  max-width: 760px;
+}
+
 .company {
   transition: border-color 0.2s ease, transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -182,6 +201,16 @@ footer nav {
 
   .hero-bottom {
     gap: 32px;
+  }
+
+  .statement .shell {
+    gap: 26px;
+    grid-template-columns: 1fr;
+  }
+
+  .statement p {
+    font-size: 17px;
+    grid-column: 1;
   }
 
   footer nav {
