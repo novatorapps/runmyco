@@ -83,6 +83,12 @@ a:focus-visible {
     box-shadow 0.2s ease;
 }
 
+.company-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+}
+
 .company:hover {
   border-color: #c9c5ff;
   box-shadow: 0 14px 34px rgba(23, 25, 34, 0.06);
